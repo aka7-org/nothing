@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>𝑨𝑲𝑨 للتعليم</title>
+    </head>
+    <body>
+        <div class="banner">
+            <div class="navbar">
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href="">Courses</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <h1>الأمن السيبراني</h1>
+                <p></p>
+                <p>هل تريد تعلم الأمن السيبراني وفحص الثغرات ؟</p>
+                <p>لقد وصلت إلى وجهتك الصحيحة ! اذهب الى الكورسات وستجد الكثير منها بشكل مجاني</p>
+                <p> ماذا تنتظر ؟ انضم الآن وإذا اردت الحصول على باقي المزايا يمكنك الإشتراك معنا </p>
+                <div>
+                </div>
+            </div>
+        </div>
+        <style>
+            *{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(ewffewf07_a_comprehensive_list_of_penetration_testing_and_hacki_4f028113-925a-40a6-8e28-a6936b94ebd0.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 100%;
+    background: #00961b;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin: 80px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25%;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #00961b;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+span{
+    background: #00961b;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+        </style>
+    </body>
+</html>
